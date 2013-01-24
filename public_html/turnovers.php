@@ -9,8 +9,15 @@ $raw = mysql_query($sql);
       Cislo uctu: <? echo account_number($iban) ?><br>
       Disponibilny zostatok na ucte: <? echo disp_balance_eur($iban); ?>
     </i></p>
-        <table class="display table table-hover table-condensed" id="turnovers">
-        <tr><th style="width: 70pt">datum</th><th>poznamka</th><th style="text-align: right">KS</th><th style="width: 50pt; text-align: right">suma</th><th style="text-align: center">typ</th></tr>
+        <table class="table table-hover table-striped table-bordered table-condensed" id="turnovers">
+        <thead><tr>
+          <th style="width: 70pt">datum</th>
+          <th>poznamka</th>
+          <th style="text-align: right">KS</th>
+          <th style="width: 50pt; text-align: right">suma</th>
+          <th style="text-align: center">typ</th>
+        </tr></thead>
+        <tbody>
         <?php
         while ($r = mysql_fetch_assoc($raw)) {
           if ($r['note'] == '') {
@@ -38,7 +45,8 @@ $raw = mysql_query($sql);
             $amount_class = 'text-info';
           }
           if (isset($datumy[$r['maturitydate']])) {
-            $maturitydate = '';
+            //$maturitydate = '';
+            $maturitydate = date("j. M Y",strtotime($r['maturitydate']));
           } else {
             $datumy[$r['maturitydate']] = "";
             $maturitydate = date("j. M Y",strtotime($r['maturitydate']));
@@ -54,7 +62,7 @@ $raw = mysql_query($sql);
           <?
         }
         ?>
-        </table>
+        </tbody></table>
 <?
 include('footer.php');
 ?>

@@ -7,10 +7,14 @@ include('functions.php');
 <html lang="en">
 <head>
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="lib/DT_bootstrap.css" rel="stylesheet">
+
 <!-- <script src="jquery/jquery-1.9.0.min.js"></script> -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="lib/DataTables/media/js/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="lib/DataTables/media/js/jquery.dataTables.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="lib/DT_bootstrap.js"></script>
+</style>
 </head>
 <body>
 <div class="row">

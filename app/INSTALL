@@ -1,0 +1,19 @@
+== Pridat do crontabu spustanie synchronizacie raz za hodinu:
+
+10 *  * * *   root    cd /opt/transparentnyucet.sk/ && ./sync.php
+
+== Nastavenie pristupovych prav do databazy: 
+
+vi db.php
+
+== Nastavenie ako daleko do historie sa na ucte pozerat pri synchronizacii:
+
+$datum_od v sync.php
+
+== Nastavenie ako dlho nechavat udaje v databaze: 
+
+koniec suboru sync.php
+
+== Logy synchronizacie
+
+Sa nachadzaju v cli/log

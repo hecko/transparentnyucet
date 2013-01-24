@@ -1,0 +1,672 @@
+2013-01-21 0:10:01 - INFO --> ----------new sync----------
+2013-01-21 0:10:01 - INFO --> -- Connected to the database.
+2013-01-21 0:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 0:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 0:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 0:10:03 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 0:10:03 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 0:10:04 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 0:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 0:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 0:10:04 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 0:10:04 - INFO --> OK
+2013-01-21 0:10:04 - INFO --> -- Vylistovanie obratov...
+2013-01-21 0:10:04 - INFO --> Number of all turnovers: 43
+2013-01-21 0:10:04 - INFO --> Number of new turnovers: 19
+2013-01-21 0:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 0:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 0:10:04 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 0:10:05 - INFO --> OK
+2013-01-21 0:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 0:10:05 - INFO --> Number of all turnovers: 43
+2013-01-21 0:10:05 - INFO --> Number of new turnovers: 19
+2013-01-21 0:10:05 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 0:10:05 - INFO --> -- Logging out
+2013-01-21 0:10:05 - INFO --> Logout successful
+2013-01-21 0:10:05 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 0:10:05 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 0:10:05 - INFO --> -- End of synchronization
+2013-01-21 1:10:01 - INFO --> ----------new sync----------
+2013-01-21 1:10:01 - INFO --> -- Connected to the database.
+2013-01-21 1:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 1:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 1:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 1:10:02 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 1:10:02 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 1:10:03 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 1:10:03 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 1:10:03 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 1:10:03 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 1:10:03 - INFO --> OK
+2013-01-21 1:10:03 - INFO --> -- Vylistovanie obratov...
+2013-01-21 1:10:04 - INFO --> Number of all turnovers: 43
+2013-01-21 1:10:04 - INFO --> Number of new turnovers: 24
+2013-01-21 1:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 1:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 1:10:04 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 1:10:04 - INFO --> OK
+2013-01-21 1:10:04 - INFO --> -- Vylistovanie obratov...
+2013-01-21 1:10:05 - INFO --> Number of all turnovers: 43
+2013-01-21 1:10:05 - INFO --> Number of new turnovers: 24
+2013-01-21 1:10:05 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 1:10:05 - INFO --> -- Logging out
+2013-01-21 1:10:05 - INFO --> Logout successful
+2013-01-21 1:10:05 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 1:10:05 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 1:10:05 - INFO --> -- End of synchronization
+2013-01-21 2:10:01 - INFO --> ----------new sync----------
+2013-01-21 2:10:01 - INFO --> -- Connected to the database.
+2013-01-21 2:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 2:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 2:10:01 - INFO --> -- Preparing to log in...
+2013-01-21 2:10:02 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 2:10:02 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 2:10:03 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 2:10:03 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 2:10:03 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 2:10:03 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 2:10:04 - INFO --> OK
+2013-01-21 2:10:04 - INFO --> -- Vylistovanie obratov...
+2013-01-21 2:10:04 - INFO --> Number of all turnovers: 43
+2013-01-21 2:10:04 - INFO --> Number of new turnovers: 24
+2013-01-21 2:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 2:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 2:10:04 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 2:10:05 - INFO --> OK
+2013-01-21 2:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 2:10:05 - INFO --> Number of all turnovers: 43
+2013-01-21 2:10:05 - INFO --> Number of new turnovers: 24
+2013-01-21 2:10:05 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 2:10:05 - INFO --> -- Logging out
+2013-01-21 2:10:05 - INFO --> Logout successful
+2013-01-21 2:10:05 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 2:10:05 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 2:10:05 - INFO --> -- End of synchronization
+2013-01-21 3:10:01 - INFO --> ----------new sync----------
+2013-01-21 3:10:01 - INFO --> -- Connected to the database.
+2013-01-21 3:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 3:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 3:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 3:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 3:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 3:10:05 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 3:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 3:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 3:10:05 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 3:10:05 - INFO --> OK
+2013-01-21 3:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 3:10:05 - INFO --> Number of all turnovers: 43
+2013-01-21 3:10:05 - INFO --> Number of new turnovers: 24
+2013-01-21 3:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 3:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 3:10:05 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 3:10:06 - INFO --> OK
+2013-01-21 3:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 3:10:06 - INFO --> Number of all turnovers: 43
+2013-01-21 3:10:06 - INFO --> Number of new turnovers: 24
+2013-01-21 3:10:06 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 3:10:06 - INFO --> -- Logging out
+2013-01-21 3:10:06 - INFO --> Logout successful
+2013-01-21 3:10:06 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 3:10:06 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 3:10:06 - INFO --> -- End of synchronization
+2013-01-21 4:10:01 - INFO --> ----------new sync----------
+2013-01-21 4:10:01 - INFO --> -- Connected to the database.
+2013-01-21 4:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 4:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 4:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 4:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 4:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 4:10:05 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 4:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 4:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 4:10:05 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 4:10:05 - INFO --> OK
+2013-01-21 4:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 4:10:06 - INFO --> Number of all turnovers: 43
+2013-01-21 4:10:06 - INFO --> Number of new turnovers: 24
+2013-01-21 4:10:06 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 4:10:06 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 4:10:06 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 4:10:06 - INFO --> OK
+2013-01-21 4:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 4:10:07 - INFO --> Number of all turnovers: 43
+2013-01-21 4:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 4:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 4:10:07 - INFO --> -- Logging out
+2013-01-21 4:10:07 - INFO --> Logout successful
+2013-01-21 4:10:07 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 4:10:07 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 4:10:07 - INFO --> -- End of synchronization
+2013-01-21 5:10:01 - INFO --> ----------new sync----------
+2013-01-21 5:10:01 - INFO --> -- Connected to the database.
+2013-01-21 5:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 5:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 5:10:04 - INFO --> -- Preparing to log in...
+2013-01-21 5:10:05 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 5:10:05 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 5:10:06 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 5:10:06 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 5:10:06 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 5:10:06 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 5:10:06 - INFO --> OK
+2013-01-21 5:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 5:10:07 - INFO --> Number of all turnovers: 43
+2013-01-21 5:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 5:10:07 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 5:10:07 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 5:10:07 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 5:10:08 - INFO --> OK
+2013-01-21 5:10:08 - INFO --> -- Vylistovanie obratov...
+2013-01-21 5:10:08 - INFO --> Number of all turnovers: 43
+2013-01-21 5:10:08 - INFO --> Number of new turnovers: 24
+2013-01-21 5:10:08 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 5:10:08 - INFO --> -- Logging out
+2013-01-21 5:10:08 - INFO --> Logout successful
+2013-01-21 5:10:08 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 5:10:08 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 5:10:08 - INFO --> -- End of synchronization
+2013-01-21 6:10:01 - INFO --> ----------new sync----------
+2013-01-21 6:10:01 - INFO --> -- Connected to the database.
+2013-01-21 6:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 6:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 6:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 6:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 6:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 6:10:05 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 6:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 6:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 6:10:05 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 6:10:05 - INFO --> OK
+2013-01-21 6:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 6:10:06 - INFO --> Number of all turnovers: 46
+2013-01-21 6:10:06 - INFO --> Number of new turnovers: 27
+2013-01-21 6:10:06 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 6:10:06 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 6:10:06 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 6:10:07 - INFO --> OK
+2013-01-21 6:10:07 - INFO --> -- Vylistovanie obratov...
+2013-01-21 6:10:08 - INFO --> Number of all turnovers: 46
+2013-01-21 6:10:08 - INFO --> Number of new turnovers: 27
+2013-01-21 6:10:08 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 6:10:08 - INFO --> -- Logging out
+2013-01-21 6:10:08 - INFO --> Logout successful
+2013-01-21 6:10:08 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 6:10:08 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 6:10:08 - INFO --> -- End of synchronization
+2013-01-21 7:10:01 - INFO --> ----------new sync----------
+2013-01-21 7:10:01 - INFO --> -- Connected to the database.
+2013-01-21 7:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 7:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 7:10:01 - INFO --> -- Preparing to log in...
+2013-01-21 7:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 7:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 7:10:04 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 7:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 7:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 7:10:04 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 7:10:05 - INFO --> OK
+2013-01-21 7:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 7:10:05 - INFO --> Number of all turnovers: 46
+2013-01-21 7:10:05 - INFO --> Number of new turnovers: 24
+2013-01-21 7:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 7:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 7:10:05 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 7:10:06 - INFO --> OK
+2013-01-21 7:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 7:10:06 - INFO --> Number of all turnovers: 46
+2013-01-21 7:10:06 - INFO --> Number of new turnovers: 24
+2013-01-21 7:10:06 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 7:10:06 - INFO --> -- Logging out
+2013-01-21 7:10:06 - INFO --> Logout successful
+2013-01-21 7:10:06 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 7:10:06 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 7:10:06 - INFO --> -- End of synchronization
+2013-01-21 8:10:01 - INFO --> ----------new sync----------
+2013-01-21 8:10:01 - INFO --> -- Connected to the database.
+2013-01-21 8:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 8:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 8:10:01 - INFO --> -- Preparing to log in...
+2013-01-21 8:10:03 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 8:10:03 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 8:10:04 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 8:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 8:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 8:10:04 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 8:10:04 - INFO --> OK
+2013-01-21 8:10:04 - INFO --> -- Vylistovanie obratov...
+2013-01-21 8:10:05 - INFO --> Number of all turnovers: 47
+2013-01-21 8:10:05 - INFO --> Number of new turnovers: 25
+2013-01-21 8:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 8:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 8:10:05 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 8:10:05 - INFO --> OK
+2013-01-21 8:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 8:10:06 - INFO --> Number of all turnovers: 47
+2013-01-21 8:10:06 - INFO --> Number of new turnovers: 25
+2013-01-21 8:10:06 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 8:10:06 - INFO --> -- Logging out
+2013-01-21 8:10:06 - INFO --> Logout successful
+2013-01-21 8:10:06 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 8:10:06 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 8:10:06 - INFO --> -- End of synchronization
+2013-01-21 9:10:01 - INFO --> ----------new sync----------
+2013-01-21 9:10:01 - INFO --> -- Connected to the database.
+2013-01-21 9:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 9:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 9:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 9:10:03 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 9:10:03 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 9:10:04 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 9:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 9:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 9:10:04 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 9:10:04 - INFO --> OK
+2013-01-21 9:10:04 - INFO --> -- Vylistovanie obratov...
+2013-01-21 9:10:05 - INFO --> Number of all turnovers: 47
+2013-01-21 9:10:05 - INFO --> Number of new turnovers: 24
+2013-01-21 9:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 9:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 9:10:05 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 9:10:06 - INFO --> OK
+2013-01-21 9:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 9:10:07 - INFO --> Number of all turnovers: 47
+2013-01-21 9:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 9:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 9:10:07 - INFO --> -- Logging out
+2013-01-21 9:10:07 - INFO --> Logout successful
+2013-01-21 9:10:07 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 9:10:07 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 9:10:07 - INFO --> -- End of synchronization
+2013-01-21 10:10:01 - INFO --> ----------new sync----------
+2013-01-21 10:10:01 - INFO --> -- Connected to the database.
+2013-01-21 10:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 10:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 10:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 10:10:03 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 10:10:03 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 10:10:04 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 10:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 10:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 10:10:04 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 10:10:05 - INFO --> OK
+2013-01-21 10:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 10:10:05 - INFO --> Number of all turnovers: 48
+2013-01-21 10:10:05 - INFO --> Number of new turnovers: 25
+2013-01-21 10:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 10:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 10:10:05 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 10:10:06 - INFO --> OK
+2013-01-21 10:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 10:10:07 - INFO --> Number of all turnovers: 48
+2013-01-21 10:10:07 - INFO --> Number of new turnovers: 25
+2013-01-21 10:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 10:10:07 - INFO --> -- Logging out
+2013-01-21 10:10:07 - INFO --> Logout successful
+2013-01-21 10:10:07 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 10:10:07 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 10:10:07 - INFO --> -- End of synchronization
+2013-01-21 11:10:02 - INFO --> ----------new sync----------
+2013-01-21 11:10:02 - INFO --> -- Connected to the database.
+2013-01-21 11:10:02 - INFO --> Datum od: 11.01.2013
+2013-01-21 11:10:02 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 11:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 11:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 11:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 11:10:05 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 11:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 11:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 11:10:05 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 11:10:05 - INFO --> OK
+2013-01-21 11:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 11:10:06 - INFO --> Number of all turnovers: 48
+2013-01-21 11:10:06 - INFO --> Number of new turnovers: 24
+2013-01-21 11:10:06 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 11:10:06 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 11:10:06 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 11:10:07 - INFO --> OK
+2013-01-21 11:10:07 - INFO --> -- Vylistovanie obratov...
+2013-01-21 11:10:07 - INFO --> Number of all turnovers: 48
+2013-01-21 11:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 11:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 11:10:07 - INFO --> -- Logging out
+2013-01-21 11:10:08 - INFO --> Logout successful
+2013-01-21 11:10:08 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 11:10:08 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 11:10:08 - INFO --> -- End of synchronization
+2013-01-21 12:10:01 - INFO --> ----------new sync----------
+2013-01-21 12:10:01 - INFO --> -- Connected to the database.
+2013-01-21 12:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 12:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 12:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 12:10:03 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 12:10:03 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 12:10:04 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 12:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 12:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 12:10:04 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 12:10:04 - INFO --> OK
+2013-01-21 12:10:04 - INFO --> -- Vylistovanie obratov...
+2013-01-21 12:10:05 - INFO --> Number of all turnovers: 48
+2013-01-21 12:10:05 - INFO --> Number of new turnovers: 24
+2013-01-21 12:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 12:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 12:10:05 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 12:10:06 - INFO --> OK
+2013-01-21 12:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 12:10:07 - INFO --> Number of all turnovers: 48
+2013-01-21 12:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 12:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 12:10:07 - INFO --> -- Logging out
+2013-01-21 12:10:07 - INFO --> Logout successful
+2013-01-21 12:10:07 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 12:10:07 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 12:10:07 - INFO --> -- End of synchronization
+2013-01-21 13:10:01 - INFO --> ----------new sync----------
+2013-01-21 13:10:01 - INFO --> -- Connected to the database.
+2013-01-21 13:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 13:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 13:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 13:10:03 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 13:10:03 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 13:10:04 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 13:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 13:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 13:10:04 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 13:10:05 - INFO --> OK
+2013-01-21 13:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 13:10:05 - INFO --> Number of all turnovers: 48
+2013-01-21 13:10:05 - INFO --> Number of new turnovers: 24
+2013-01-21 13:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 13:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 13:10:05 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 13:10:06 - INFO --> OK
+2013-01-21 13:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 13:10:07 - INFO --> Number of all turnovers: 48
+2013-01-21 13:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 13:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 13:10:07 - INFO --> -- Logging out
+2013-01-21 13:10:08 - INFO --> Logout successful
+2013-01-21 13:10:08 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 13:10:08 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 13:10:08 - INFO --> -- End of synchronization
+2013-01-21 14:10:01 - INFO --> ----------new sync----------
+2013-01-21 14:10:01 - INFO --> -- Connected to the database.
+2013-01-21 14:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 14:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 14:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 14:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 14:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 14:10:05 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 14:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 14:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 14:10:05 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 14:10:05 - INFO --> OK
+2013-01-21 14:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 14:10:06 - INFO --> Number of all turnovers: 48
+2013-01-21 14:10:06 - INFO --> Number of new turnovers: 24
+2013-01-21 14:10:06 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 14:10:06 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 14:10:06 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 14:10:06 - INFO --> OK
+2013-01-21 14:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 14:10:07 - INFO --> Number of all turnovers: 48
+2013-01-21 14:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 14:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 14:10:07 - INFO --> -- Logging out
+2013-01-21 14:10:07 - INFO --> Logout successful
+2013-01-21 14:10:07 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 14:10:07 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 14:10:07 - INFO --> -- End of synchronization
+2013-01-21 15:10:01 - INFO --> ----------new sync----------
+2013-01-21 15:10:01 - INFO --> -- Connected to the database.
+2013-01-21 15:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 15:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 15:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 15:10:03 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 15:10:03 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 15:10:04 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 15:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 15:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 15:10:04 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 15:10:04 - INFO --> OK
+2013-01-21 15:10:04 - INFO --> -- Vylistovanie obratov...
+2013-01-21 15:10:05 - INFO --> Number of all turnovers: 49
+2013-01-21 15:10:05 - INFO --> Number of new turnovers: 25
+2013-01-21 15:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 15:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 15:10:05 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 15:10:06 - INFO --> OK
+2013-01-21 15:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 15:10:07 - INFO --> Number of all turnovers: 49
+2013-01-21 15:10:07 - INFO --> Number of new turnovers: 25
+2013-01-21 15:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 15:10:07 - INFO --> -- Logging out
+2013-01-21 15:10:07 - INFO --> Logout successful
+2013-01-21 15:10:07 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 15:10:07 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 15:10:07 - INFO --> -- End of synchronization
+2013-01-21 16:10:01 - INFO --> ----------new sync----------
+2013-01-21 16:10:01 - INFO --> -- Connected to the database.
+2013-01-21 16:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 16:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 16:10:01 - INFO --> -- Preparing to log in...
+2013-01-21 16:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 16:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 16:10:05 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 16:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 16:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 16:10:05 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 16:10:05 - INFO --> OK
+2013-01-21 16:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 16:10:07 - INFO --> Number of all turnovers: 49
+2013-01-21 16:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 16:10:07 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 16:10:07 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 16:10:07 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 16:10:07 - INFO --> OK
+2013-01-21 16:10:07 - INFO --> -- Vylistovanie obratov...
+2013-01-21 16:10:08 - INFO --> Number of all turnovers: 49
+2013-01-21 16:10:08 - INFO --> Number of new turnovers: 24
+2013-01-21 16:10:08 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 16:10:08 - INFO --> -- Logging out
+2013-01-21 16:10:08 - INFO --> Logout successful
+2013-01-21 16:10:08 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 16:10:08 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 16:10:08 - INFO --> -- End of synchronization
+2013-01-21 17:10:01 - INFO --> ----------new sync----------
+2013-01-21 17:10:01 - INFO --> -- Connected to the database.
+2013-01-21 17:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 17:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 17:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 17:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 17:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 17:10:04 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 17:10:04 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 17:10:04 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 17:10:04 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 17:10:05 - INFO --> OK
+2013-01-21 17:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 17:10:06 - INFO --> Number of all turnovers: 49
+2013-01-21 17:10:06 - INFO --> Number of new turnovers: 24
+2013-01-21 17:10:06 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 17:10:06 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 17:10:06 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 17:10:06 - INFO --> OK
+2013-01-21 17:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 17:10:07 - INFO --> Number of all turnovers: 49
+2013-01-21 17:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 17:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 17:10:07 - INFO --> -- Logging out
+2013-01-21 17:10:07 - INFO --> Logout successful
+2013-01-21 17:10:07 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 17:10:07 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 17:10:07 - INFO --> -- End of synchronization
+2013-01-21 18:10:01 - INFO --> ----------new sync----------
+2013-01-21 18:10:01 - INFO --> -- Connected to the database.
+2013-01-21 18:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 18:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 18:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 18:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 18:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 18:10:05 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 18:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 18:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 18:10:05 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 18:10:05 - INFO --> OK
+2013-01-21 18:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 18:10:05 - INFO --> Number of all turnovers: 49
+2013-01-21 18:10:05 - INFO --> Number of new turnovers: 24
+2013-01-21 18:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 18:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 18:10:05 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 18:10:06 - INFO --> OK
+2013-01-21 18:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 18:10:07 - INFO --> Number of all turnovers: 49
+2013-01-21 18:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 18:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 18:10:07 - INFO --> -- Logging out
+2013-01-21 18:10:07 - INFO --> Logout successful
+2013-01-21 18:10:07 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 18:10:07 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 18:10:07 - INFO --> -- End of synchronization
+2013-01-21 19:10:01 - INFO --> ----------new sync----------
+2013-01-21 19:10:01 - INFO --> -- Connected to the database.
+2013-01-21 19:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 19:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 19:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 19:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 19:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 19:10:05 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 19:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 19:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 19:10:05 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 19:10:05 - INFO --> OK
+2013-01-21 19:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 19:10:06 - INFO --> Number of all turnovers: 49
+2013-01-21 19:10:06 - INFO --> Number of new turnovers: 24
+2013-01-21 19:10:06 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 19:10:06 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 19:10:06 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 19:10:06 - INFO --> OK
+2013-01-21 19:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 19:10:07 - INFO --> Number of all turnovers: 49
+2013-01-21 19:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 19:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 19:10:07 - INFO --> -- Logging out
+2013-01-21 19:10:07 - INFO --> Logout successful
+2013-01-21 19:10:07 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 19:10:07 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 19:10:07 - INFO --> -- End of synchronization
+2013-01-21 20:10:01 - INFO --> ----------new sync----------
+2013-01-21 20:10:01 - INFO --> -- Connected to the database.
+2013-01-21 20:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 20:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 20:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 20:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 20:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 20:10:05 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 20:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 20:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 20:10:05 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 20:10:05 - INFO --> OK
+2013-01-21 20:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 20:10:06 - INFO --> Number of all turnovers: 49
+2013-01-21 20:10:06 - INFO --> Number of new turnovers: 24
+2013-01-21 20:10:06 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 20:10:06 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 20:10:06 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 20:10:06 - INFO --> OK
+2013-01-21 20:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 20:10:06 - INFO --> Number of all turnovers: 49
+2013-01-21 20:10:06 - INFO --> Number of new turnovers: 24
+2013-01-21 20:10:06 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 20:10:06 - INFO --> -- Logging out
+2013-01-21 20:10:07 - INFO --> Logout successful
+2013-01-21 20:10:07 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 20:10:07 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 20:10:07 - INFO --> -- End of synchronization
+2013-01-21 21:10:01 - INFO --> ----------new sync----------
+2013-01-21 21:10:01 - INFO --> -- Connected to the database.
+2013-01-21 21:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 21:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 21:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 21:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 21:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 21:10:05 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 21:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 21:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 21:10:05 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 21:10:05 - INFO --> OK
+2013-01-21 21:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 21:10:07 - INFO --> Number of all turnovers: 49
+2013-01-21 21:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 21:10:07 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 21:10:07 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 21:10:07 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 21:10:07 - INFO --> OK
+2013-01-21 21:10:07 - INFO --> -- Vylistovanie obratov...
+2013-01-21 21:10:08 - INFO --> Number of all turnovers: 49
+2013-01-21 21:10:08 - INFO --> Number of new turnovers: 24
+2013-01-21 21:10:08 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 21:10:08 - INFO --> -- Logging out
+2013-01-21 21:10:08 - INFO --> Logout successful
+2013-01-21 21:10:08 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 21:10:08 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 21:10:08 - INFO --> -- End of synchronization
+2013-01-21 22:10:01 - INFO --> ----------new sync----------
+2013-01-21 22:10:01 - INFO --> -- Connected to the database.
+2013-01-21 22:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 22:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 22:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 22:10:04 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 22:10:04 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 22:10:05 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 22:10:05 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 22:10:05 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 22:10:05 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 22:10:05 - INFO --> OK
+2013-01-21 22:10:05 - INFO --> -- Vylistovanie obratov...
+2013-01-21 22:10:06 - INFO --> Number of all turnovers: 49
+2013-01-21 22:10:06 - INFO --> Number of new turnovers: 24
+2013-01-21 22:10:06 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 22:10:06 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 22:10:06 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 22:10:07 - INFO --> OK
+2013-01-21 22:10:07 - INFO --> -- Vylistovanie obratov...
+2013-01-21 22:10:07 - INFO --> Number of all turnovers: 49
+2013-01-21 22:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 22:10:07 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 22:10:07 - INFO --> -- Logging out
+2013-01-21 22:10:07 - INFO --> Logout successful
+2013-01-21 22:10:07 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 22:10:07 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 22:10:07 - INFO --> -- End of synchronization
+2013-01-21 23:10:01 - INFO --> ----------new sync----------
+2013-01-21 23:10:01 - INFO --> -- Connected to the database.
+2013-01-21 23:10:01 - INFO --> Datum od: 11.01.2013
+2013-01-21 23:10:01 - INFO --> -- Nasleduje inicializacia sessny
+2013-01-21 23:10:02 - INFO --> -- Preparing to log in...
+2013-01-21 23:10:05 - INFO --> Nalogovany user: Adam Klient9
+2013-01-21 23:10:05 - INFO --> -- Pokracujeme na zoznam uctov...
+2013-01-21 23:10:06 - INFO --> === Ideme cyklovat - pre kazdy ucet vyberat tranzakcie
+2013-01-21 23:10:06 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 23:10:06 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 23:10:06 - INFO --> Ucet: 930000000965 - IBAN:SK2609000000000011622366
+2013-01-21 23:10:06 - INFO --> OK
+2013-01-21 23:10:06 - INFO --> -- Vylistovanie obratov...
+2013-01-21 23:10:06 - INFO --> Number of all turnovers: 49
+2013-01-21 23:10:07 - INFO --> Number of new turnovers: 24
+2013-01-21 23:10:07 - INFO --> -- Vlozenie info o ucte do databazy
+2013-01-21 23:10:07 - INFO --> -- Nasleduje vyber uctu...
+2013-01-21 23:10:07 - INFO --> Ucet: 930000000954 - IBAN:SK4809000000000011622358
+2013-01-21 23:10:07 - INFO --> OK
+2013-01-21 23:10:07 - INFO --> -- Vylistovanie obratov...
+2013-01-21 23:10:08 - INFO --> Number of all turnovers: 49
+2013-01-21 23:10:08 - INFO --> Number of new turnovers: 24
+2013-01-21 23:10:08 - INFO --> === Koniec cyklu zbierania dat z uctov.
+2013-01-21 23:10:08 - INFO --> -- Logging out
+2013-01-21 23:10:08 - INFO --> Logout successful
+2013-01-21 23:10:08 - INFO --> Database cleanup... DELETE FROM turnovers WHERE maturitydate<'2013-01-16'
+2013-01-21 23:10:08 - INFO --> Deleted information from database (number removed): 48
+2013-01-21 23:10:08 - INFO --> -- End of synchronization

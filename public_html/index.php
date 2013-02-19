@@ -5,7 +5,9 @@ include('header.php');
 <?
 //list accounts
 $query = "SELECT iban FROM turnovers GROUP BY iban";
-$raw = mysql_query($query);
+if (!$raw = mysql_query($query)) {
+  echo "Problem s databazou.";
+}
 while ($r = mysql_fetch_array($raw)) {
 ?>
   <tr>

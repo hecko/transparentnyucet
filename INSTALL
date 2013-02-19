@@ -1,4 +1,4 @@
-aplikacia je rozdelena na dve casti - frontend (FE) a backend (BE)
+aplikacia je rozdelena na dve casti - frontend (FE - adresar public_html) a backend (BE - adresar app)
 baskend taha udaje z databankingu a front-end ich zobrazuje z lokelnej databazy
 transparent.dump je databazova schema pre MySQL
 pristupy do databazy za definuju v dvoch suboroch (db.php) - zvlast pre FE a zvlast pre BE

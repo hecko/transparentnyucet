@@ -1,0 +1,5 @@
+aplikacia je rozdelena na dve casti - frontend (FE) a backend (BE)
+baskend taha udaje z databankingu a front-end ich zobrazuje z lokelnej databazy
+transparent.dump je databazova schema pre MySQL
+pristupy do databazy za definuju v dvoch suboroch (db.php) - zvlast pre FE a zvlast pre BE
+nastavenie synchronizacie sa robi v app/sync.php (meno a heslo) a sync.php sa spusta z cronu (napr. raz za hodinu...)

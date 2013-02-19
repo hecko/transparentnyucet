@@ -1,7 +1,7 @@
 <?
 include('header.php');
-$iban = mysql_real_escape_string($_GET['iban']);
-$sql = "SELECT * FROM turnovers WHERE iban='$iban' ORDER BY maturitydate DESC LIMIT 100";
+$iban = $_GET['iban'];
+$sql = "SELECT * FROM turnovers WHERE iban='".mysql_real_escape_string($iban)."' ORDER BY maturitydate DESC LIMIT 100";
 $raw = mysql_query($sql);
 ?>
     <h6>posledna synchronizacia: <? echo last_sync(); ?>; <a href="index.php">spat na zoznam transparentnych uctov</a></h6>

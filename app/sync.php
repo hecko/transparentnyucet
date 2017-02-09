@@ -3,11 +3,8 @@
 echo("----------new sync----------\n");
 
 require('lib/functions.php');
-require('db.php');
-
-//config - tu nastavit meno a heslo na prihlasenie sa na ucet IB
-$ib_cli='110337498';
-$ib_pass='98087326';
+#require('db.php');
+require('config.php');
 
 //DataBanking SLSP zvladne naraz vyexportovat len 200 pohybov na ucte
 $datum_od=date("j.m.Y",time()-(3600*24*10));
@@ -17,18 +14,26 @@ echo("Datum od: $datum_od\n");
 $cfile = tempnam("/tmp", "CURLCOOKIE");
 
 echo("-- Nasleduje inicializacia sessny\n");
+print("Cookie temp file: " . $cfile . "\n");
 
 //initialize a curl instance
 $c = curl_init();
 curl_setopt($c, CURLOPT_URL, "https://ib.slsp.sk/ebanking/ibxindex.xml");
 //save the cookie here
-curl_setopt($c, CURLOPT_COOKIEJAR, $cfile); 
+curl_setopt($c, CURLOPT_COOKIEJAR, $cfile);
 curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($c, CURLOPT_LOW_SPEED_LIMIT, 1);
 curl_setopt($c, CURLOPT_LOW_SPEED_TIME, 30);
-$out = curl_exec($c);
+if (!$out = curl_exec($c)) {
+    echo("Unable to make cURL request to init session!\n");
+    echo(curl_error($c) . "\n");
+    die();
+}
+echo("Returned data from HTTP request:\n");
+echo($out);
+print_r($out);
 
-curl_setopt ($c, CURLOPT_COOKIEFILE, $cfile); 
+curl_setopt ($c, CURLOPT_COOKIEFILE, $cfile);
 curl_setopt ($c, CURLOPT_RETURNTRANSFER, true);
 $output = curl_exec ($c);
 
@@ -43,7 +48,11 @@ curl_setopt($c, CURLOPT_POST, true);
 curl_setopt($c, CURLOPT_POSTFIELDS, $post);
 $output = curl_exec ($c);
 
-$xml = simplexml_load_string($output); 
+echo("-- Login output from CURL:\n");
+print_r($output);
+
+echo("-- Loading XML data...\n");
+$xml = simplexml_load_string($output);
 $name = $xml->result->{'reply-login'}->name." ".$xml->result->{'reply-login'}->surname;
 echo("Nalogovany user: $name\n");
 

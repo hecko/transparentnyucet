@@ -1,3 +1,7 @@
+== Packages (Ubuntu)
+
+  apt-get install php-curl php-xml php-mysql
+
 == Pridat do crontabu spustanie synchronizacie raz za hodinu:
 
 10 *  * * *   root    cd /opt/transparentnyucet.sk/ && ./sync.php
